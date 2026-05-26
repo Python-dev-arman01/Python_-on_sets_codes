@@ -13,3 +13,16 @@ print("------------------------------------")
 print(rahul_watchlist.union(arman_watchlist))
 print("-------------------------------------------------")
 print("Iron Man" in rahul_watchlist)
+
+#-------------------------------------------------------------------
+#------------Day_2-------------------------
+#----------Saets_wuth_functions_use_and_conditional_statement_use-----------
+def pasword_check_systam():
+	vailid_pasword= {"arman123","jarvish01","python77"}
+	pasword= input("Enter your old pasword :")
+	if (pasword in (vailid_pasword)):
+		print("Your pasword sucsessfull change :")
+	else:
+		print("wrong pasword try again")
+		
+pasword_check_systam()
