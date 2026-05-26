@@ -1,0 +1,13 @@
+arman_watchlist = {"Iron Man", "Avengers", "Batman", "Interstellar"}
+rahul_watchlist = {"Batman", "Spiderman", "Avengers", "Inception"}
+print(f"Arman_watchlist is : {arman_watchlist}")
+print(f"Rahul_watchlist is : {rahul_watchlist}")
+print("------------------------")
+print(arman_watchlist.intersection(rahul_watchlist))
+print("------------------------------------")
+print(arman_watchlist.difference(rahul_watchlist))
+print("------------------------------------")
+
+print(rahul_watchlist.union(arman_watchlist))
+print("-------------------------------------------------")
+print("Iron Man" in rahul_watchlist)
